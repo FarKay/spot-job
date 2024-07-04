@@ -2,19 +2,19 @@
 function App() {
   return (
     <div>
-      <div className="flex max-w-[425px] flex-col items-center justify-center md:flex md:max-w-[1440px] md:flex-row">
-        <div className="-left-40 my-0 flex h-[219px] w-full flex-col bg-image-mobile bg-contain bg-no-repeat md:relative md:-top-0 md:left-0 md:h-screen md:w-[964px] md:bg-image-desktop md:bg-contain md:bg-no-repeat">
-          <div className="relative left-28 top-10 flex flex-col text-[36px] font-bold uppercase leading-[43.57px] text-[#FFFFFF]">
+      <div className="flex w-full flex-col items-center justify-center md:flex md:h-dvh md:flex-row">
+        <div className="-left-40 my-0 flex h-[219px] w-full flex-col bg-image-mobile bg-cover bg-no-repeat md:relative md:top-0 md:h-full md:w-1/2 md:bg-image-desktop md:bg-cover md:bg-no-repeat">
+          <div className="relative left-28 top-10 flex flex-col text-[36px] font-bold uppercase leading-[43.57px] text-[#FFFFFF] md:top-1/4 md:mb-2 md:text-[64px] md:font-bold md:leading-[77.45px]">
             Get your <span>dream job </span>
           </div>
-          <div className="relative left-28 top-14 text-[16px] font-bold leading-[19.36px] text-[#03121E]">
-            Let's get your dream job with Spotjob
+          <div className="relative left-28 top-14 text-[16px] font-bold leading-[19.36px] text-[#03121E] md:top-1/4 md:flex md:flex-col md:text-[32px] md:font-bold md:leading-[38.73px] md:text-[#ffffff]">
+            Let's get your dream job with <span>Spotjob</span>
           </div>
         </div>
 
-        <div className="">
-          <div className="mx-auto my-0 flex w-[310px] flex-col items-center justify-center gap-[20px] md:mx-auto md:flex md:max-h-[768px] md:w-[490px] md:items-center md:justify-center md:whitespace-nowrap">
-            <div className="mt-10 flex flex-col gap-3 text-center">
+        <div>
+          <div className="mx-auto my-0 flex w-[310px] flex-col items-center justify-center gap-[20px] md:mx-auto md:my-10 md:flex md:w-[490px] md:items-center md:justify-center md:whitespace-nowrap md:py-10 md:pb-10">
+            <div className="flex flex-col gap-3 text-center md:pt-40">
               <h2 className="text-[32px] font-semibold leading-[38.73px] text-black md:font-medium">
                 Sign Up
               </h2>
@@ -26,7 +26,7 @@ function App() {
               </p>
             </div>
             <form>
-              <div className="gap-4">
+              <div className="py-4">
                 <div className="mb-3 flex flex-col gap-3">
                   <label className="text-[12px] font-medium leading-[14.52px] text-[#242424]">
                     Name
